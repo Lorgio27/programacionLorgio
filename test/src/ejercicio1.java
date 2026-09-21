@@ -5,6 +5,7 @@ public class ejercicio1 {
         System.out.println("Ejercicio1");
 
         Scanner teclado new Scanner(System.in);
-        System.out.printf()
+        System.out.printf("ENTERO:")
+                
     }
 }
