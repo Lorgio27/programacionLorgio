@@ -18,9 +18,9 @@ public class ejercicio1 {
         System.out.println(resultado);
         resultado = numero1 * numero2;
         System.out.println(resultado);
-        resultadoreal = numero1 / numero2;
+        resultadoreal = (double)numero1 / numero2;
         System.out.println(resultadoreal);
-        resultadoreal2= numero1 % numero2;
+        resultadoreal2= (double)numero1 % numero2;
         System.out.println(resultadoreal2);
 
 
