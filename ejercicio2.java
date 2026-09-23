@@ -9,21 +9,23 @@ public class ejercicio2 {
         //Coste de las bebidas: 3.75
         //Coste de los bocadillos: 10.25
         //Coste consumición: 14.0
-        Scanner teclad = new Scanner(System.in);
-        double preciobocadillos;
-        double preciobebidas;
-        preciobocadillos = 2.05;
-        preciobebidas = 1.25;
+        Scanner teclado = new Scanner(System.in);
+        double preciobocadillos = 2.05;
+        double preciobebidas = 1.25;
         int numerobocadillos;
         System.out.println("Introduce el numero de bocadillos");
-        numerobocadillos = teclado.nextint();
+        numerobocadillos= teclado.nextInt();
         int numerobebidas;
         System.out.println("Introduce el numero de bebidas");
-        numerobebidas = teclado.nextint();
-        resultado preciobebidastotal = 1,25 * numerobebidas;
-        System.out.println(resultado preciobebidastotal);
-        resultado preciobocadillostotal = 2,05 * numerobocadillos;
-        System.out.println(preciobocadillostotal);
-        Resultado total = resultado preciobebidastotal + resultado preciobocadillostotal;
-System.out.println(resultado total);
-}
+        numerobebidas = teclado.nextInt();
+        double resultadopbt;
+        resultadopbt = preciobebidas * numerobebidas;
+        System.out.println("Total en bebidas" + resultadopbt);
+        double resultadopbot;
+        resultadopbot = preciobocadillos * numerobocadillos;
+        System.out.println("Total en bocadillos" + resultadopbot);
+        double Resultadototal;
+                Resultadototal = resultadopbt + resultadopbot;
+System.out.println("A pagar" + Resultadototal);
+
+}}
