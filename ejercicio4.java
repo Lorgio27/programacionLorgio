@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class ejercicio2 {
+public class ejercicio4 {
     public static void main(String[] args) {
         //Unos amigos entra en un bar que ofrece las bebidas a 1,25€ y los bocadillos a 2,05€. El camarero les pregunta cuántas bebidas
         //y bocadillos quieren. Calcula el coste de la consumición, mostrando primero el coste de las bebidas y de los bocadillos. (Bar)
@@ -20,10 +20,10 @@ public class ejercicio2 {
         numerobebidas = teclado.nextInt();
         double resultadopbt;
         resultadopbt = preciobebidas * numerobebidas;
-        System.out.println("Total en bebidas" + resultadopbt);
+        System.out.printf("Total en bebidas %.2f" + resultadopbt);
         double resultadopbot;
         resultadopbot = preciobocadillos * numerobocadillos;
-        System.out.println("Total en bocadillos" + resultadopbot);
+        System.out.printf("Total en bocadillos %.2f" + resultadopbot);
         double Resultadototal;
                 Resultadototal = resultadopbt + resultadopbot;
 System.out.println("A pagar" + Resultadototal);

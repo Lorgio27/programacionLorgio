@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class ejercicio8 {
+    public static void main(String[] args) {
+        Scanner lector  = new Scanner(System.in);
+        System.out.println("Cunatos centigraados quieres pasar");
+        int gradosPasar = lector.nextInt();
+        double gradosK = gradosPasar + 273.15;
+        double gradosF = ((double) (9 * gradosPasar) / 5) + 32;
+        System.out.println("Indica los grados K a pasar");
+        gradosPasar = lector.nextInt();
+        double gradosC = gradosPasar + 273.15;
+        gradosF = ((9 * gradosPasar - 273.15) / 5) + 32;
+        System.out.println("Indica los grados F a pasar");
+        gradosPasar = lector.nextInt();
+        gradosC = (double) (5* gradosPasar - 32)/9);
+grados
+    }}
