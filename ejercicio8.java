@@ -14,5 +14,4 @@ public class ejercicio8 {
         System.out.println("Indica los grados F a pasar");
         gradosPasar = lector.nextInt();
         gradosC = (double) (5* gradosPasar - 32)/9);
-grados
     }}

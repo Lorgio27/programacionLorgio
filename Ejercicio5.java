@@ -25,5 +25,6 @@ public class Ejercicio5 {
         System.out.println("Minutos" + minutos);
         System.out.println("Segundos" + segundosrestantes);
 
+
     }
 }
