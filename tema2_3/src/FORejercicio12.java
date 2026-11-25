@@ -1,0 +1,2 @@
+public class FORejercicio12 {
+}
