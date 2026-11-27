@@ -1,9 +1,17 @@
 package modelos;
 
 public class Asignatura {
-    private int identificador;
-    private double calificacion;
+    //TENEMOS QUE PONER LO QUE LA IDENTIFICA
 
+    private long id;
+
+    private double nota;
+
+    public Asignatura(){
+
+    }
+    7
 }
+
 
 
